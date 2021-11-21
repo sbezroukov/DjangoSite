@@ -16,7 +16,7 @@ def index(request):  # HttpRequest
     context = {
         'posts': posts,
         'menu': menu,
-        'title': 'Главная страница'
+        'title': 'Главная страница 2'
     }
     return render(request, 'women/index.html',  context=context)
 
